@@ -82,6 +82,18 @@ a {
   border-top-width: 1px;
   width: 380px;
 }
+
+.card:hover {
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 5px #999;
+  cursor: pointer;
+}
+
+.card .card-heading.simple:hover {
+  color: #1A4DA3;
+}
+
 .card .card-heading.simple {
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
@@ -124,6 +136,10 @@ a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #335CDF;
+}
+
+.row-fluid .span-middle {
+  width: 34%;
 }
 
 .read-more a:hover {
