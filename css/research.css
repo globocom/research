@@ -146,3 +146,37 @@ a {
   text-decoration: none;
   color: #194DA4;
 }
+
+img.footer-logo {
+  width: 100px;
+	padding-bottom: 14px;
+	padding-right: 8px;
+	padding-top: 10px;
+}
+
+.footer {
+  min-height: 42px;
+}
+
+.footer-text {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.footer-text-right {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+  -webkit-font-smoothing: antialiased;
+	float: right;
+	margin-top: 14px;
+}
+
+.footer-text-right a {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+  -webkit-font-smoothing: antialiased;
+}
