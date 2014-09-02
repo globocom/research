@@ -1,3 +1,4 @@
+
 span.research {
   display: inline-block;
   font-family: 'ProximaNova-Light';
@@ -87,18 +88,31 @@ a {
   -moz-box-shadow: 0 0 5px #999;
   -webkit-box-shadow: 0 0 5px #999;
   box-shadow: 0 0 5px #999;
-  cursor: pointer;
 }
 
 .card .card-heading.simple:hover {
   color: #1A4DA3;
+	text-decoration: none;
+  cursor: pointer;
 }
+
 
 .card .card-heading.simple {
   font-family: 'Open Sans', sans-serif;
   font-size: 28px;
   color: #246FEE;
   -webkit-font-smoothing: antialiased;
+	text-decoration: none;
+  border-bottom: 0px;
+}
+
+.card a:hover, a:focus {
+	text-decoration: none;
+	color: #1A4DA3;
+}
+
+.card a {
+	color: #246FEE;
 }
 
 .card .card-authors {
@@ -109,10 +123,6 @@ a {
   padding: 0 20px;
   line-height: 22px;
   -webkit-font-smoothing: antialiased;
-}
-
-.card .card-heading.simple {
-  border-bottom: 0px;
 }
 
 .card .card-body {
