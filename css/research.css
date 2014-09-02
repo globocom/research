@@ -37,6 +37,10 @@ h1 {
   padding-top: 115px;
 }
 
+h2 {
+  line-height: 32px;
+}
+
 .container-fluid {
   padding-right: 60px;
   padding-left: 60px;
@@ -51,8 +55,11 @@ h1 {
   line-height: 32px;
 }
 
-.areas-filter {
+.body-articles {
   padding-top: 60px;
+}
+
+.areas-filter {
   font-family: "ProximaNova-SemiBold";
   font-size: 18px;
   color: #A3A3A3;
@@ -71,3 +78,55 @@ a {
   color: #A3A3A3;
 }
 
+.card {
+  border-top-width: 1px;
+  width: 380px;
+}
+.card .card-heading.simple {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  color: #246FEE;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card .card-authors {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #888;
+  font-weight: 300;
+  padding: 0 20px;
+  line-height: 22px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card .card-heading.simple {
+  border-bottom: 0px;
+}
+
+.card .card-body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: #888;
+  font-weight: 300;
+}
+
+.card .card-footer {
+  border-top: 1px solid #E6E6E6;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.read-more {
+  display: inline;
+}
+
+.read-more a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #335CDF;
+}
+
+.read-more a:hover {
+  text-decoration: none;
+  color: #194DA4;
+}
