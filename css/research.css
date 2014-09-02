@@ -30,7 +30,7 @@ img.globocom-logo {
 }
 
 h1 {
-  font-family: "ProximaNova-Bold";
+  font-family: "ProximaNova-SemiBold";
   font-size: 60px;
   color: #333;
   -webkit-font-smoothing: antialiased;
@@ -50,3 +50,24 @@ h1 {
   -webkit-font-smoothing: antialiased;
   line-height: 32px;
 }
+
+.areas-filter {
+  padding-top: 60px;
+  font-family: "ProximaNova-SemiBold";
+  font-size: 18px;
+  color: #A3A3A3;
+}
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+  color: #335CDF;
+}
+
+.nav-tabs>li>a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #A3A3A3;
+}
+
